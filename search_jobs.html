@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Empleos | TalentMatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TalentMatch</h1>
+        <p>Encuentra el empleo ideal para ti.</p>
+    </header>
+
+    <section class="form-container">
+        <form id="searchForm">
+            <label for="search">Palabra Clave:</label>
+            <input type="text" id="search" name="search" placeholder="Ej: Desarrollador, Marketing, etc.">
+
+            <label for="location">Ubicación:</label>
+            <input type="text" id="location" name="location" placeholder="Ej: Ciudad de México, remoto, etc.">
+
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+    <section id="results">
+        <h2>Resultados:</h2>
+        <ul id="jobList">
+            <!-- Aquí se mostrarán las ofertas de empleo -->
+        </ul>
+    </section>
+</body>
+</html>

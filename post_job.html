@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+    <title>Publicar Oferta | TalentMatch</title>
+</head>
+<body>
+    <header>
+        <h1>TalentMatch</h1>
+        <p>Publicar tu oferta de trabajo y encuntra los mejores talentos.</p>
+    </header>
+
+
+    <section class="form-container">
+        <form id="jobForm">
+            <label for="jobTitle">Titulo del trabajo:</label>
+            <input type="text" id="jobTitle" name="jobTitle" placeholder="Ej: Desarrollador Web" required>
+
+
+            <label for="companyName">Nombre de la Empresa:</label>
+            <input type="text" id="companyName" name="companyName" placeholder="Ej: TalentMatch Inc" required>
+
+
+            <label for="location">Ubicacion:</label>
+            <input type="text" id="location" name="location" placeholder="Ej: Santo Domingo" required>
+
+
+            <label for="description">Descripción del Trabajo:</label>
+            <textarea id="description" name="description" rows="5" placeholder="Describe el puesto y los requisitos..." required></textarea>
+
+            <label for="salary">Salario Ofrecido (Opcional):</label>
+            <input type="number" id="salary" name="salary" placeholder="Ej: 20000">
+
+            <button type="submit">Publicar Oferta</button>
+
+        </form>
+    </section>
+</body>
+</html>

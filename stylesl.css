@@ -1,0 +1,83 @@
+/* Formularios */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fffeee;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c2c2c;
+}
+
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15PX;
+    border: 1px solid #a8aa9c;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #2573b7;
+    color: rgb(240, 237, 237);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color: #166534;
+}
+
+
+/* Formularios */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1f0f0f;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: none;
+}
+
+/* Resultados de búsqueda */
+#results {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ebe5e5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#jobList {
+    list-style: none;
+    padding: 0;
+}
+
+#jobList li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+#jobList li:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
